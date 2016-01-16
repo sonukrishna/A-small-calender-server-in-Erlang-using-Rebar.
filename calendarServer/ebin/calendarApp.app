@@ -1,0 +1,9 @@
+{application,calendarApp,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{calendarApp,[]}},
+              {env,[]},
+              {modules,[calendarApp,calendarApp_db,calendarApp_server,
+                        calendarApp_sup,calendar_client]}]}.
